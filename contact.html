@@ -1,0 +1,586 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="shortcut icon" href="pixelcut-export.jpg"
+        type="image/x-icon">
+
+    <title>ServiceMitra LOAN PROVIDER</title>
+</head>
+<style>
+    /* Contact Form Styling */
+    .contact-form {
+        padding: 50px 0;
+        background: #f8f9fa;
+    }
+
+    .contact-form .container {
+        max-width: 800px;
+        background: #fff;
+        padding: 30px;
+        border-radius: 10px;
+        box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    }
+
+    .contact-form h2 {
+        color: #2d3079;
+        margin-bottom: 30px;
+        font-weight: 600;
+    }
+
+    .contact-form .form-control {
+        height: 50px;
+        border: 2px solid #e9ecef;
+        border-radius: 8px;
+        padding: 10px 15px;
+        margin-bottom: 20px;
+        transition: all 0.3s ease;
+    }
+
+    .contact-form .form-control:focus {
+        border-color: #33cabb;
+        box-shadow: 0 0 8px rgba(51, 202, 187, 0.2);
+    }
+
+    .contact-form textarea.form-control {
+        height: auto;
+        resize: vertical;
+        min-height: 150px;
+    }
+
+    .contact-form .btn-primary {
+        background: #33cabb;
+        border: none;
+        padding: 12px 30px;
+        font-size: 16px;
+        font-weight: 600;
+        border-radius: 8px;
+        transition: all 0.3s ease;
+    }
+
+    .contact-form .btn-primary:hover {
+        background: #2aa899;
+        transform: translateY(-2px);
+    }
+
+    /* Form Labels */
+    .contact-form label {
+        display: block;
+        margin-bottom: 8px;
+        color: #2d3079;
+        font-weight: 500;
+    }
+
+    /* Responsive Design */
+    @media (max-width: 767px) {
+        .contact-form .container {
+            padding: 20px;
+        }
+        
+        .contact-form h2 {
+            font-size: 24px;
+        }
+        
+        .contact-form .form-control {
+            height: 45px;
+            font-size: 14px;
+        }
+    }
+</style>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar navbar-custom" text-success>
+        <a href="#" class="navbar-brand">
+            <img src="pixelcut-export.jpg"
+             width="190" height="100">
+        </a>
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- Collection of nav links, forms, and other content for toggling -->
+        <div id="navbarCollapse" class="collapse navbar-collapse justify-content-start">
+            <div class="navbar-nav ms-auto">
+                <a href="index.html" class="nav-item nav-link active">Home</a>
+                <a href="about.html" class="nav-item nav-link">About</a>
+                <a href="emical.html" class="nav-item nav-link">EMI Calculator</a>
+                <a href="contact.html" class="nav-item nav-link">Contact Us</a>
+                <div class="nav-item dropdown">
+                    <!-- <a href="services.html" data-toggle="dropdown" class="nav-item nav-link dropdown-toggle">Services &raquo</a> -->
+                    <!-- <ul class="dropdown-menu">
+                        <li>
+                            <a href="goldl.html" class="dropdown-item">
+                                <h7>Gold Loan </h7>
+                            </a>
+                            <a href="buisness.html" class="dropdown-item">
+                                <h7>Business Loan </h7>
+                            </a>
+                            <a href="education.html" class="dropdown-item">
+                                <h7>Educational Loan </h7>
+                            </a>
+
+                            <a href="personal.html" class="dropdown-item">
+                                <h7>Personal Loan &raquo;</h7>
+                            </a> -->
+                            <!-- <ul class="dropdown-menu submenu">
+                                <li><a href="" class="dropdown-item">
+                                        <h7>Home Loan</h7>
+                                    </a></li>
+                                <li><a href="" class="dropdown-item">
+                                        <h7>Women Personal Loan</h7>
+                                    </a></li>
+                                <li><a href="" class="dropdown-item">
+                                        <h7>Car Loan</h7>
+                                    </a></li>
+                                <li><a href="" class="dropdown-item">
+                                        <h7>Marriage Loan</h7>
+                                    </a></li>
+                            </ul> -->
+                        </li>
+                    </ul>
+                    </li>
+                </div>
+               
+            </div>
+            <!-- <form class="navbar-form form-inline">
+                <div class="input-group search-box">
+                    <input type="text" id="search" class="form-control" placeholder="Search here...">
+                    <div class="input-group-append">
+                        <span class="input-group-text">
+                            <i class="material-icons">&#xE8B6;</i>
+                        </span>
+                    </div>
+                </div>
+            </form>
+            <div class="navbar-nav ml-auto action-buttons">
+                <div class="nav-item dropdown">
+                    <a href="Register.html" data-toggle="dropdown" class="nav-link dropdown-toggle mr-4">Login</a>
+                    <div class="dropdown-menu action-form">
+                        <form action="/examples/actions/confirmation.php" method="post">
+                            <p class="hint-text">Sign in with</p>
+                            <div class="form-group social-btn clearfix">
+                                <a href="#" class="btn btn-secondary google-btn float-left"><i
+                                        class="fa fa-google"></i>Google</a>
+                                <a href="#" class="btn btn-secondary facebook-btn float-right"><i
+                                        class="fa fa-facebook"></i> Facebook</a>
+                            </div>
+                            <div class="or-seperator"><b>or</b></div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Username" required="required">
+                            </div>
+                            <div class="form-group">
+                                <input type="password" class="form-control" placeholder="Password" required="required">
+                            </div>
+                            <input type="submit" class="btn btn-primary btn-block" value="Login">
+                            <div class="text-center mt-2">
+                                <a href="#">Forgot Your password?</a>
+                                <br>
+                                <a href="Register.html">Don't have an account?Register Here</a>
+                                
+                            </div>
+                            
+                        </form>
+                    </div>
+                </div>
+
+                <button class="btn btn-primary dropdown-toggle sign-up-btn" type="submit"> <a href="apply.html">Apply Now</a>
+                </button> -->
+
+            </div>
+        </div>
+    </nav>
+
+<section id ="contact-intro"  class="hero-img2">
+        <div class="container-img">
+            <div class="row">
+                <div class="col-sm-12 col-md-6">
+                    <h2 class="text-lg-left text-white font-weight-bold"></h2>
+                    <h3 class="text-lg-left text-white font-weight-normal"></h3>
+
+                    <!-- <p><button class="btn btn-primary apply-btn" type="submit"> <a href="apply.html">Apply Now</a></button> -->
+                    </p>
+                </div>
+            </div>
+        </div>
+</section>
+
+<section class="over-row">
+        <div class="container mt-5">
+            <div class="row d-flex justify-content-center">
+                <div class="col-lg-10">
+                    <div id="overcard" class="card mb-6 p-sm-0">
+                        <div class="card-body text-center">
+                            <div class="title">
+                                <h2 class="text-center text-info">Contact</h2>
+                            </div>
+                            <!-- <p class="mb-4">Get instant approval and direct deposit to your bank</p> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="contact-section">
+        <div class="container my-1">
+            <div class="row">
+                <div class="col-md-4">
+                    <div id ="contact-card" class="card mb-4 shadow-sm">
+                        <div class="card-body">
+                            <h3><i class="fa fa-map-marker" aria-hidden="true"></i>Office</h3>
+                            <p class="card-text">
+                               White Avenue, Amritsar,Punjab 143001</p>
+                                <a class="get-direction" href="https://goo.gl/maps/LT4CVHwBKGBx5TFn8?g_st=ac" target="_blank"><i class="fa fa-location-arrow" aria-hidden="true">&zwnj;</i> <h7> Get Directions</h7></a>
+                                <h6></h6>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+                        <div class="card-body"> 
+                            <!-- <h3><i class="fa fa-map-marker" aria-hidden="true"></i>   Branch Office</h3>
+                            <p class="card-text">No 23/7, Western Apartments,
+                                Anna Nagar West Extension,
+                                Chennai, Tamil Nadu 600101</p>
+                                <a class="get-direction" href="https://www.google.com/maps/place/Hubtown+Solaris/@19.1146885,72.8478055,17z/data=!3m1!4b1!4m5!3m4!1s0x3be7c9cd1657c6e7:0x2acf8f11dd0989cb!8m2!3d19.1146703!4d72.850232" target="_blank"><i class="fa fa-location-arrow" aria-hidden="true">&zwnj;</i> <h7> Get Directions</h7></a> -->
+                                
+                                <h6></h6>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+                        <div class="card-body">
+                            <h3><i class="fa fa-commenting" aria-hidden="true"></i> Contact Info</h3>
+                            <p class="card-text">
+                                <ul>
+                                    <li>
+                                        <h7>
+                                            <i class="fa fa-phone" aria-hidden="true" style="color: #007bff;"></i> Phone: +91 7383230001
+                                        </h7>
+                                    </li>
+                                    <li>
+                                        <h7>
+                                            <i class="fa fa-envelope" aria-hidden="true" style="color: #28a745;"></i> Email: Info@servicemitra.co.in
+                                        </h7>
+                                    </li>
+                                </ul>
+                                <!-- Add the highlighted button below -->
+                                <a href="mailto:Info@servicemitra.co.in" class="btn btn-warning btn-lg mt-3">Contact Us</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                
+                
+
+                                    <!-- <li>
+                                        <h7><i class="      fa fa-linkedin" aria-hidden="true"></i>   Linkedin: LOAN PROVIDER
+
+                                    </h7></li> -->
+
+                                    <!-- <li>
+                                        <h7><i class="      fa fa-twitter" aria-hidden="true"></i>   Twitter: LOAN
+
+                                    </h7></li> -->
+                                </ul>
+                            </p>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr class="divider">
+        </div>
+</section>
+
+ <<!-- Contact Form -->
+<section class="container contact-form">
+    <h2 class="text-center text-info mb-4">Get In Touch</h2>
+    <form action="https://api.web3forms.com/submit" method="POST">
+        <input type="hidden" name="access_key" value="11ca402b-7b2e-4f5b-beca-738d53239ae3">
+        <div class="form-group">
+            <input type="text" name="name" class="form-control" placeholder="Your Name" required>
+        </div>
+        <div class="form-group">
+            <input type="email" name="email" class="form-control" placeholder="Your Email" required>
+        </div>
+        <div class="form-group">
+            <input type="tel" name="phone" class="form-control" placeholder="Your Mobile Number" required>
+        </div>
+        <div class="form-group">
+            <textarea name="message" class="form-control" placeholder="Your Message" rows="4" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary btn-block">Submit Form</button>
+    </form>
+</section>
+
+<section class="footer-main">
+        <!-- Footer Start-->
+        <div class="footer-area">
+            <div class="container">
+                <div class="footer-top footer-padding">
+                    <div class="row justify-content-between">
+                        <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6">
+                            <div class="single-footer-caption mb-50">
+                                <div class="single-footer-caption mb-30">
+                                    <!-- logo -->
+                                    <div class="footer-logo">
+                                        <a href="index.html"><img src="pixelcut-export.jpg"  width="190" height="100"></a>
+                                    </div>
+                                    <div class="footer-pera">
+                                        <p>We provide services to individuals and corporations in all areas of funding, including loan against property, home loans and business loans, working capital loans, corporate loans, and so on. We are available to respond to all of your questions and assist with obtaining loans quickly for any need.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-2 col-md-4 col-sm-6">
+                            <div class="single-footer-caption mb-50">
+                                <div class="footer-tittle">
+                                    <h4>Quick Link</h4>
+                                    <ul>
+                                        <li><a href="index.html">Home</a></li>
+                                        <li><a href="#">About</a></li>
+                                        <li><a href="#">Services</a></li>
+                                        <li><a href="#">EMI Calculator</a></li>
+                                        <li><a href="#">Blog</a></li>
+                                        <li><a href="#">Contact Us</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+                            <div class="single-footer-caption mb-50">
+                                <div class="footer-tittle">
+                                    <!-- <h4>Type of Loans</h4>
+                                    <ul>
+                                        <li><a href="goldl.html">Gold Loan</a></li>
+                                        <li><a href="personal.html">Personal Loan</a></li>
+                                        <li><a href="buisness.html">Buisness loan</a></li>
+                                        <li><a href="education.html">Educational Loan</a></li>
+                                    </ul> -->
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Footer Support Section -->
+<div class="col-xl-3 col-lg-3 col-md-4 col-sm-6">
+    <div class="single-footer-caption mb-50">
+        <div class="footer-tittle">
+            <h4>Support</h4>
+            <ul>
+                <li><a href="#">Frequently Asked Questions</a></li>
+                <!-- Modal trigger link for Terms and Conditions -->
+                <li><a href="#" data-toggle="modal" data-target="#termsModal">Terms & Conditions</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Email: info@servicemitra.co.in</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!-- Modal Structure for Terms and Conditions -->
+<div class="modal fade" id="termsModal" tabindex="-1" role="dialog" aria-labelledby="termsModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="termsModalLabel">Terms and Conditions</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <h6>1. Introduction</h6>
+                <p>Welcome to ServiceMitra! By accessing and using our website, you agree to comply with and be bound by these Terms and Conditions. Please read them carefully before using our services.</p>
+
+                <h6>2. Use of Services</h6>
+                <p>You must be at least 18 years old to use our services. By using our website, you confirm that you are of legal age and capable of entering into legally binding agreements.</p>
+
+                <h6>3. Account Registration</h6>
+                <p>To access certain features of our website, you may be required to create an account. You agree to provide accurate, current, and complete information during registration and to maintain the security of your account credentials.</p>
+
+                <h6>4. Privacy Policy</h6>
+                <p>Your privacy is important to us. By using our website, you consent to the collection and use of your personal information as described in our <a href="/privacy-policy" target="_blank">Privacy Policy</a>.</p>
+
+                <h6>5. Payment and Billing</h6>
+                <p>All payments for services provided through the website are due at the time of booking. We accept various payment methods, and by using our platform, you agree to the payment terms provided during the checkout process.</p>
+
+                <h6>6. User Responsibilities</h6>
+                <p>As a user of our website, you agree to refrain from engaging in any activity that could harm, disrupt, or compromise the functioning of our website. You must not use the website for any illegal or unauthorized purposes.</p>
+
+                <h6>7. Prohibited Content</h6>
+                <p>You are prohibited from uploading, posting, or transmitting any content that is unlawful, defamatory, obscene, or infringes on the rights of others. We reserve the right to remove any content that violates these terms.</p>
+
+                <h6>8. Limitation of Liability</h6>
+                <p>We are not liable for any direct, indirect, incidental, or consequential damages arising from your use of our website or services. Use of the website is at your own risk.</p>
+
+                <h6>9. Termination</h6>
+                <p>We reserve the right to suspend or terminate your account and access to our website at any time, without notice, if you violate any of these terms or engage in activities that threaten the integrity of our platform.</p>
+
+                <h6>10. Changes to Terms</h6>
+                <p>We may update these Terms and Conditions from time to time. Any changes will be reflected on this page, and it is your responsibility to review these terms regularly. Continued use of the website constitutes acceptance of the updated terms.</p>
+
+                <h6>11. Governing Law</h6>
+                <p>These terms are governed by and construed in accordance with the laws of India. Any disputes arising from the use of our services will be subject to the exclusive jurisdiction of the courts located in India.</p>
+
+                <h6>12. Contact Us</h6>
+                <p>If you have any questions or concerns about these Terms and Conditions, please contact us at: <strong>Info@servicemitra.co.in</strong>.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Custom CSS for Styling -->
+<!-- Custom CSS for Styling -->
+<style>
+    /* Styling for Terms & Conditions Modal */
+    .modal-header {
+        background-color: #343a40; /* Dark background for header */
+        color: white; /* White text for better contrast */
+    }
+
+    .modal-title {
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+
+    .modal-body {
+        font-family: 'Arial', sans-serif;
+        font-size: 1rem;
+        color: #333; /* Dark color for body text */
+        line-height: 1.6;
+        max-height: 400px;
+        overflow-y: auto;
+        background-color: #f9f9f9; /* Light background for better readability */
+    }
+
+    .modal-footer {
+        background-color: #f1f1f1; /* Light background for footer */
+    }
+
+    .modal-footer .btn-secondary {
+        background-color: #007bff; /* Blue button */
+        color: white;
+    }
+
+    .modal-footer .btn-secondary:hover {
+        background-color: #0056b3; /* Darker blue when hovered */
+    }
+
+    .modal-body h6 {
+        font-weight: bold;
+        color: #2d2d2d; /* Dark color for section headings */
+        margin-top: 1.5rem;
+    }
+
+    .modal-body p {
+        margin-top: 0.5rem;
+        color: #555; /* Slightly lighter text for paragraph for better reading */
+        text-align: justify;
+    }
+
+    .footer-tittle {
+        font-size: 1.2rem;
+        color: #333;
+        margin-bottom: 1rem;
+    }
+
+    .footer-tittle a {
+        color: #007bff; /* Blue links */
+        text-decoration: none;
+    }
+
+    .footer-tittle a:hover {
+        text-decoration: underline;
+    }
+
+    /* Additional styling for footer */
+    .single-footer-caption {
+        margin-bottom: 1.5rem;
+    }
+
+    .footer-tittle ul {
+        padding-left: 0;
+        list-style-type: none;
+    }
+
+    .footer-tittle ul li {
+        margin: 0.5rem 0;
+    }
+</style>
+
+
+                                    <h4>Follow us</h4>
+                                    <ul>
+                                        <a href="https://www.facebook.com/share/1EHhynUmyH/" target="_blank">
+                                            <img src="facebook.png" alt="Facebook" width="30" height="30" style="margin-right: 15px;">
+                                        </a>
+                                    
+                                        <a href="https://servicemitra.co.in" target="_blank">
+                                            <img src="website.jpeg" alt="Website" width="30" height="30" style="margin-right: 15px;">
+                                        </a>
+                                    
+                                        <a href="https://www.instagram.com/servicemitra.asr" target="_blank">
+                                            <img src="instagram.png" alt="Instagram" width="30" height="30" style="margin-right: 15px;">
+                                        </a>
+                                    
+                                        <a href="https://wa.me/919317310355" target="_blank">
+                                            <img src="logo.png" alt="WhatsApp" width="30" height="30">
+                                        </a>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <div class="row d-flex justify-content-between align-items-center">
+                        <div class="col-md-6 offset-md-3">
+                            <div class="footer-copy-right">
+                                <p>Copyright &copy;All rights reserved </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End-->
+</section>
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
